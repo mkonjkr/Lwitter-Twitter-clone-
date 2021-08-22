@@ -14,8 +14,6 @@ function App() {
         setIsLoggedIn(false);
       }
       setInit(true);
-      console.log(init);
-      console.log(isLoggedIn);
     });
   }, []);
 

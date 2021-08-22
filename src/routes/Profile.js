@@ -6,6 +6,7 @@ export default () => {
     const history = useHistory();
     const onLogOutClick = () => {
         authService.signOut();
+        //go back to Main page after sign out
         history.push("/");
     }
     return (
